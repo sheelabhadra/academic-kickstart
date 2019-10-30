@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
@@ -18,12 +18,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Graduate Research Assistant"
+  company = "Texas A&M Engineering Experiment Station"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "College Station, TX"
+  date_start = "2019-09-01"
   date_end = ""
+  description = """
+  """
+
+
+[[experience]]
+  title = "Machine Learning Engineer Intern"
+  company = "BNSF Railway"
+  company_url = ""
+  location = "Fort Worth, TX"
+  date_start = "2018-08-27"
+  date_end = "2019-01-04"
   description = """
   Responsibilities include:
   
@@ -33,12 +44,12 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Graduate Engineer Trainee"
+  company = "Maruti Suzuki India Limited"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
+  location = "Gurgaon, India"
+  date_start = "2015-07-01"
+  date_end = "2016-07-01"
   description = """Taught electronic engineering and researched semiconductor physics."""
 
 +++
